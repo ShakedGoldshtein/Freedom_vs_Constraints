@@ -1,0 +1,13 @@
+{
+  "prompt": "In this Kata, you're to complete the function `sum_square_even_root_odd`.\n\nYou will be given a list of numbers, `nums`, as the only argument to the function. Take each number in the list and *square* it if it is even, or *square root* the number if it is odd. Take this new list and find the *sum*, rounding to two decimal places.\n\nThe list will never be empty and will only contain values that are greater than or equal to zero.\n\nGood luck!",
+  "secretary_judge": "claude-3-5-sonnet-20241022",
+  "learning_size": 2,
+  "all_candidates": [
+    "claude-3-5-sonnet-20241022",
+    "gemini-2.5-flash",
+    "deepseek-chat",
+    "mistral-large-latest",
+    "gpt-4",
+    "command-a-03-2025"
+  ]
+}

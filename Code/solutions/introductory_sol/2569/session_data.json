@@ -1,0 +1,13 @@
+{
+  "prompt": "=====Problem Statement=====\nYou are asked to ensure that the first and last names of people begin with a capital letter in their passports. For example, alison heck should be capitalised correctly as Alison Heck. \n\nalison heck => Alison Heck\n\nGiven a full name, your task is to capitalize the name appropriately.\n\n=====Input Format=====\nA single line of input containing the full name, S.\n\n=====Constraints=====\n0<len(S)<1000\nThe string consists of alphanumeric characters and spaces.\n\nNote: in a word only the first character is capitalized. Example 12abc when capitalized remains 12abc.\n\n=====Output Format=====\nPrint the capitalized string, S.",
+  "secretary_judge": "claude-3-5-sonnet-20241022",
+  "learning_size": 2,
+  "all_candidates": [
+    "claude-3-5-sonnet-20241022",
+    "gpt-4",
+    "command-a-03-2025",
+    "gemini-2.5-flash",
+    "deepseek-chat",
+    "mistral-large-latest"
+  ]
+}

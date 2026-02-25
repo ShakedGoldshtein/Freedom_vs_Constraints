@@ -1,0 +1,13 @@
+{
+  "prompt": "You are given a tree consisting of n nodes numbered from 1 to n. The weights of edges of the tree can be any binary integer satisfying following Q conditions.\n\n- \n\t\tEach condition is of form u, v, x where u, v are nodes of the tree and x is a binary number. \n\n\t\tFor satisfying this condition,  sum of the weight of all the edges present in the path from node u to v of the tree, should have even if x = 0, odd otherwise. \n\t\n\nNow, you have to find out number of ways of assigning 0/1 (binary) weights to the edges of the tree satisfying the above conditions.\nAs the answer could be quite large, print your answer modulo 109 + 7.\n\n-----Input-----\n- The first line of input contains a single integer T denoting number of test cases.\n- For each test case:\n\t\n- First line contains two space separated integers n, Q.\n- Each of the next n - 1 lines will contain two space separated integer  u, v denoting that there is an edge between vertex u and v in the tree.\n- Each of the next Q lines will contain three space separated integer  u, v, x denoting a condition as stated in the probelm.\n\n-----Output-----\n- For each test case, output a single integer corresponding to the answer of the problem.\n\n-----Constraints-----\n- 1 \u2264 u, v \u2264 n\n- 0 \u2264 x \u2264 1\n\n-----Subtasks-----\nSubtask #1 : (10 points)\n- Sum of each of variables n and Q over all the test cases \u2264 20\n\nSubtask #2 : (20 points)\n- Sum of each of variables n and Q over all the test cases \u2264 100\n\nSubtask #3 : (30 points)\n- Sum of each of variables n and Q over all the test cases \u2264 5000\n\nSubtask #4 : (40 points)\n- Sum of each of variables n and Q over all the test cases \u2264 100000\n\n-----Example-----\nInput:\n3\n3 2\n1 2\n1 3\n1 2 0\n1 3 0\n3 0\n1 2\n2 3\n3 1\n1 2\n2 3\n1 2 1\n\nOutput:\n1\n4\n2\n\n-----Explanation-----\nIn the first example, \nYou can only set the weight of each edge equal to 0 for satisfying the given condition. So, there is exactly one way of doing this. Hence answer is 1.\n\nIn the second example, \nThere are two edges and there is no condition on the edges. So, you can assign them in 4 ways. \n\nIn the third example, \nYou have to assign the weight of edge between node 1 and 2 to 1. You can assign the remaining edge from 2 to 3 either 0 or 1. So, the answer is 2.",
+  "secretary_judge": "command-a-03-2025",
+  "learning_size": 2,
+  "all_candidates": [
+    "command-a-03-2025",
+    "mistral-large-latest",
+    "deepseek-chat",
+    "gpt-4",
+    "gemini-2.5-flash",
+    "claude-3-5-sonnet-20241022"
+  ]
+}

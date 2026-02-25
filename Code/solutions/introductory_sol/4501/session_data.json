@@ -1,0 +1,13 @@
+{
+  "prompt": "You are given a string of words (x), for each word within the string you need to turn the word 'inside out'. By this I mean the internal letters will move out, and the external letters move toward the centre. \n\nIf the word is even length, all letters will move. If the length is odd, you are expected to leave the 'middle' letter of the word where it is. \n\nAn example should clarify:\n\n'taxi' would become 'atix'\n'taxis' would become 'atxsi'",
+  "secretary_judge": "mistral-large-latest",
+  "learning_size": 2,
+  "all_candidates": [
+    "mistral-large-latest",
+    "gemini-2.5-flash",
+    "gpt-4",
+    "deepseek-chat",
+    "claude-3-5-sonnet-20241022",
+    "command-a-03-2025"
+  ]
+}

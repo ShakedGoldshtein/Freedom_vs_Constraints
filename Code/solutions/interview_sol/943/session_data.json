@@ -1,0 +1,13 @@
+{
+  "prompt": "Tejas has invited the Clash Team for a Dinner Party. He places V empty plates (numbered from 1 to V inclusive) in a straight line on a table. He has prepared 2 kinds of Delicious Dishes named dish A and dish B.\n\nHe has exactly V servings of Dish A and W servings of dish B. \n\nNow he wants to serve the dishes in such a way that if theith plate has serving of Dish A then (i-1)th plate should not have serving of Dish B. Assuming all the Dishes are identical find number of ways Tejas can serve the Clash Team.\n\n-----Input-----\n- The first line of the input contains an integer T denoting the number of test cases . The description of T testcases follow.\n\n- The first line of each test case contains two space seperated integers V W .\n\n-----Output-----\nFor each test case, output the number of ways Tejas can serve the Clash Team.\n\n\n-----Constraints-----\n\n- 1 \u2264 T \u2264 100\n- 1 \u2264 V \u2264 1000\n- 1 \u2264 W \u2264 1000\n\n-----Example-----\nInput:\n\n1\n\n3 3 \n\nOutput:\n4\n\n\n\n-----Explanation-----\n\nIn the above example the 4 ways are:\n\nAAA\n\nAAB\n\nABB\n\nBBB",
+  "secretary_judge": "deepseek-chat",
+  "learning_size": 2,
+  "all_candidates": [
+    "deepseek-chat",
+    "claude-3-5-sonnet-20241022",
+    "gemini-2.5-flash",
+    "mistral-large-latest",
+    "command-a-03-2025",
+    "gpt-4"
+  ]
+}

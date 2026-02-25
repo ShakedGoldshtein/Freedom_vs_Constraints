@@ -1,0 +1,13 @@
+{
+  "prompt": "# Grasshopper - Function syntax debugging\n\nA student was working on a function and made some syntax mistakes while coding. Help them find their mistakes and fix them.",
+  "secretary_judge": "gemini-2.5-flash",
+  "learning_size": 2,
+  "all_candidates": [
+    "gemini-2.5-flash",
+    "claude-3-5-sonnet-20241022",
+    "command-a-03-2025",
+    "gpt-4",
+    "mistral-large-latest",
+    "deepseek-chat"
+  ]
+}

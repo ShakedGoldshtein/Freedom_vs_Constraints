@@ -1,0 +1,13 @@
+{
+  "prompt": "A tree is a graph with n vertices and exactly n - 1 edges; this graph should meet the following condition: there exists exactly one shortest (by number of edges) path between any pair of its vertices.\n\nA subtree of a tree T is a tree with both vertices and edges as subsets of vertices and edges of T.\n\nYou're given a tree with n vertices. Consider its vertices numbered with integers from 1 to n. Additionally an integer is written on every vertex of this tree. Initially the integer written on the i-th vertex is equal to v_{i}. In one move you can apply the following operation:  Select the subtree of the given tree that includes the vertex with number 1.  Increase (or decrease) by one all the integers which are written on the vertices of that subtree. \n\nCalculate the minimum number of moves that is required to make all the integers written on the vertices of the given tree equal to zero.\n\n\n-----Input-----\n\nThe first line of the input contains n (1 \u2264 n \u2264 10^5). Each of the next n - 1 lines contains two integers a_{i} and b_{i} (1 \u2264 a_{i}, b_{i} \u2264 n;\u00a0a_{i} \u2260 b_{i}) indicating there's an edge between vertices a_{i} and b_{i}. It's guaranteed that the input graph is a tree. \n\nThe last line of the input contains a list of n space-separated integers v_1, v_2, ..., v_{n} (|v_{i}| \u2264 10^9).\n\n\n-----Output-----\n\nPrint the minimum number of operations needed to solve the task.\n\nPlease, do not write the %lld specifier to read or write 64-bit integers in \u0421++. It is preferred to use the cin, cout streams or the %I64d specifier.\n\n\n-----Examples-----\nInput\n3\n1 2\n1 3\n1 -1 1\n\nOutput\n3",
+  "secretary_judge": "gpt-4",
+  "learning_size": 2,
+  "all_candidates": [
+    "gpt-4",
+    "command-a-03-2025",
+    "claude-3-5-sonnet-20241022",
+    "deepseek-chat",
+    "mistral-large-latest",
+    "gemini-2.5-flash"
+  ]
+}

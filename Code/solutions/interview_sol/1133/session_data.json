@@ -1,0 +1,13 @@
+{
+  "prompt": "Shivam is working on electric circuits. He requires some connecting wires. He needs to make a total of N connections and he has mentioned his wire length requirements for each connection in an integer sequence A. For buying wires, he need to decide the length of each wire piece, and he\u2019ll get as many wire pieces of the chosen length each at unit cost (cost 1 per piece) but he can't get wires of different lengths. Also, he can't cut wire pieces to make new pieces of different (smaller) length(s).\nBut he can connect any number of wires together to form a new single wire piece whose length is the sum of lengths of the wires connected. So, Shivam needs to choose an integer length for buying wires. Shivam hates to waste anything, and he hates it even more if that thing is money.\nShivam is weak in mathematics and is asking you to help him in this situation. Help him decide the length of wires and total number of wires so as to minimize the total expenditure.\nNote: You cannot make a connection which requires a wire piece of length X with a wire piece of length Y if X\u2260Y.\nInput:\n\u00b7        The first line of the input contains T = Number of Test cases\n\u00b7        The first line of each test case contains an integer N\n\u00b7        The second line contains N space separated integers A1, A2, \u2026., AN.\nOutput:\nFor each test case print a single line containing two space separated integers, length of each wire and the corresponding minimum cost.\nConstraints:\n\u00b7       1 <= T <= 10\n\u00b7       1 <= N <= 10^5\n\u00b7        1 <= Ai <= 10^5, for each valid i\nSample Input:\n1\n3\n2 4 8\nSample Output:\n2 7",
+  "secretary_judge": "claude-3-5-sonnet-20241022",
+  "learning_size": 2,
+  "all_candidates": [
+    "claude-3-5-sonnet-20241022",
+    "gpt-4",
+    "command-a-03-2025",
+    "deepseek-chat",
+    "gemini-2.5-flash",
+    "mistral-large-latest"
+  ]
+}

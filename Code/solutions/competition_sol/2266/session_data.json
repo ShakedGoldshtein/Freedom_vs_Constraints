@@ -1,0 +1,13 @@
+{
+  "prompt": "There are M chairs arranged in a line. The coordinate of the i-th chair (1 \u2264 i \u2264 M) is i.\nN people of the Takahashi clan played too much games, and they are all suffering from backaches. They need to sit in chairs and rest, but they are particular about which chairs they sit in. Specifically, the i-th person wishes to sit in a chair whose coordinate is not greater than L_i, or not less than R_i. Naturally, only one person can sit in the same chair.\nIt may not be possible for all of them to sit in their favorite chairs, if nothing is done.\nAoki, who cares for the health of the people of the Takahashi clan, decides to provide additional chairs so that all of them can sit in chairs at their favorite positions.\nAdditional chairs can be placed at arbitrary real coordinates. Find the minimum required number of additional chairs.\n\n-----Constraints-----\n - 1 \u2264 N,M \u2264 2 \u00d7 10^5\n - 0 \u2264 L_i < R_i \u2264 M + 1(1 \u2264 i \u2264 N)\n - All input values are integers.\n\n-----Input-----\nInput is given from Standard Input in the following format:\nN M\nL_1 R_1\n:\nL_N R_N\n\n-----Output-----\nPrint the minimum required number of additional chairs.\n\n-----Sample Input-----\n4 4\n0 3\n2 3\n1 3\n3 4\n\n-----Sample Output-----\n0\n\nThe four people can sit in chairs at the coordinates 3, 2, 1 and 4, respectively, and no more chair is needed.",
+  "secretary_judge": "mistral-large-latest",
+  "learning_size": 2,
+  "all_candidates": [
+    "mistral-large-latest",
+    "gpt-4",
+    "command-a-03-2025",
+    "deepseek-chat",
+    "gemini-2.5-flash",
+    "claude-3-5-sonnet-20241022"
+  ]
+}

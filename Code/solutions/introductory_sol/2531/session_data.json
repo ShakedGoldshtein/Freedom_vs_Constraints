@@ -1,0 +1,13 @@
+{
+  "prompt": "Given an integer array, you need to find one continuous subarray that if you only sort this subarray in ascending order, then the whole array will be sorted in ascending order, too.  \n\nYou need to find the shortest such subarray and output its length.\n\nExample 1:\n\nInput: [2, 6, 4, 8, 10, 9, 15]\nOutput: 5\nExplanation: You need to sort [6, 4, 8, 10, 9] in ascending order to make the whole array sorted in ascending order.\n\n\n\nNote:\n\nThen length of the input array is in range [1, 10,000].\nThe input array may contain duplicates, so ascending order here means .",
+  "secretary_judge": "command-a-03-2025",
+  "learning_size": 2,
+  "all_candidates": [
+    "command-a-03-2025",
+    "mistral-large-latest",
+    "gemini-2.5-flash",
+    "deepseek-chat",
+    "gpt-4",
+    "claude-3-5-sonnet-20241022"
+  ]
+}

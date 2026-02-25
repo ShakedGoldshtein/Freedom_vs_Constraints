@@ -1,0 +1,13 @@
+{
+  "prompt": "Your work is to write a method that takes a value and an index, and returns the value with the bit at given index flipped.\n\nThe bits are numbered from the least significant bit (index 1).\n\nExample:\n```python\nflip_bit(15, 4) == 7 # 15 in binary is 1111, after flipping 4th bit, it becomes 0111, i.e. 7\nflip_bit(15, 5) == 31 # 15 in binary is 1111, 5th bit is 0, after flipping, it becomes 11111, i.e., 31\n```\nNote : index number can be out of number's range : e.g number is 3 (it has 2 bits) and index number is 8(for C# this number is up to 31) -> result will be 131 \n\nSee more examples in test classes\n\nGood luck!",
+  "secretary_judge": "mistral-large-latest",
+  "learning_size": 2,
+  "all_candidates": [
+    "mistral-large-latest",
+    "command-a-03-2025",
+    "claude-3-5-sonnet-20241022",
+    "deepseek-chat",
+    "gpt-4",
+    "gemini-2.5-flash"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "prompt": "# Story\n\nJohn found a path to a treasure, and while searching for its precise location he wrote a list of directions using symbols `\"^\"`, `\"v\"`, `\"<\"`, `\">\"` which mean `north`, `east`, `west`, and `east` accordingly. On his way John had to try many different paths, sometimes walking in circles, and even missing the treasure completely before finally noticing it.\n\n___\n\n## Task\n\nSimplify the list of directions written by John by eliminating any loops.\n\n**Note**: a loop is any sublist of directions which leads John to the coordinate he had already visited.\n\n___\n\n## Examples\n\n```\nsimplify(\"<>>\")        ==  \">\"\nsimplify(\"<^^>v<^^^\")  ==  \"<^^^^\"\nsimplify(\"\")           ==  \"\"\nsimplify(\"^< > v\n    ^   v\n> > C > D > >\n^   ^   v\n^ < B < <\n    ^\n    A\n```\n\nJohn visits points `A -> B -> C -> D -> B -> C -> D`, realizes that `-> C -> D -> B` steps are meaningless and removes them, getting this path: `A -> B -> (*removed*) -> C -> D`.\n\n```\n    \u2219 \u2219 \u2219\n    \u2219   \u2219\n> > C > D > >\n^   \u2219   \u2219\n^ < B \u2219 \u2219\n    ^\n    A\n```\n\nFollowing the final, simplified route John visits points `C` and `D`, but for the first time, not the second (because we ignore the steps made on a hypothetical path), and he doesn't need to alter the directions list anymore.",
+  "secretary_judge": "gpt-4",
+  "learning_size": 2,
+  "all_candidates": [
+    "gpt-4",
+    "deepseek-chat",
+    "gemini-2.5-flash",
+    "command-a-03-2025",
+    "claude-3-5-sonnet-20241022",
+    "mistral-large-latest"
+  ]
+}

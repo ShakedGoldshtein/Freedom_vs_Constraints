@@ -1,0 +1,13 @@
+{
+  "prompt": "This is a follow up from my kata The old switcheroo\n\nWrite\n```python\ndef encode(str)\n```\nthat takes in a string ```str``` and replaces all the letters with their respective positions in the English alphabet.\n\n```python\nencode('abc') == '123'   # a is 1st in English alpabet, b is 2nd and c is 3rd\nencode('codewars') == '315452311819'\nencode('abc-#@5') == '123-#@5'\n```\nString are case sensitive.",
+  "secretary_judge": "gemini-2.5-flash",
+  "learning_size": 2,
+  "all_candidates": [
+    "gemini-2.5-flash",
+    "command-a-03-2025",
+    "deepseek-chat",
+    "gpt-4",
+    "mistral-large-latest",
+    "claude-3-5-sonnet-20241022"
+  ]
+}

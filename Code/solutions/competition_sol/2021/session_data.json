@@ -1,0 +1,13 @@
+{
+  "prompt": "Recently, Pari and Arya did some research about NP-Hard problems and they found the minimum vertex cover problem very interesting.\n\nSuppose the graph G is given. Subset A of its vertices is called a vertex cover of this graph, if for each edge uv there is at least one endpoint of it in this set, i.e. $u \\in A$ or $v \\in A$ (or both).\n\nPari and Arya have won a great undirected graph as an award in a team contest. Now they have to split it in two parts, but both of them want their parts of the graph to be a vertex cover.\n\nThey have agreed to give you their graph and you need to find two disjoint subsets of its vertices A and B, such that both A and B are vertex cover or claim it's impossible. Each vertex should be given to no more than one of the friends (or you can even keep it for yourself).\n\n\n-----Input-----\n\nThe first line of the input contains two integers n and m (2 \u2264 n \u2264 100 000, 1 \u2264 m \u2264 100 000)\u00a0\u2014 the number of vertices and the number of edges in the prize graph, respectively.\n\nEach of the next m lines contains a pair of integers u_{i} and v_{i} (1  \u2264  u_{i},  v_{i}  \u2264  n), denoting an undirected edge between u_{i} and v_{i}. It's guaranteed the graph won't contain any self-loops or multiple edges.\n\n\n-----Output-----\n\nIf it's impossible to split the graph between Pari and Arya as they expect, print \"-1\" (without quotes).\n\nIf there are two disjoint sets of vertices, such that both sets are vertex cover, print their descriptions. Each description must contain two lines. The first line contains a single integer k denoting the number of vertices in that vertex cover, and the second line contains k integers\u00a0\u2014 the indices of vertices. Note that because of m \u2265 1, vertex cover cannot be empty.\n\n\n-----Examples-----\nInput\n4 2\n1 2\n2 3\n\nOutput\n1\n2 \n2\n1 3 \n\nInput\n3 3\n1 2\n2 3\n1 3\n\nOutput\n-1\n\n\n\n-----Note-----\n\nIn the first sample, you can give the vertex number 2 to Arya and vertices numbered 1 and 3 to Pari and keep vertex number 4 for yourself (or give it someone, if you wish).\n\nIn the second sample, there is no way to satisfy both Pari and Arya.",
+  "secretary_judge": "claude-3-5-sonnet-20241022",
+  "learning_size": 2,
+  "all_candidates": [
+    "claude-3-5-sonnet-20241022",
+    "gpt-4",
+    "mistral-large-latest",
+    "gemini-2.5-flash",
+    "command-a-03-2025",
+    "deepseek-chat"
+  ]
+}

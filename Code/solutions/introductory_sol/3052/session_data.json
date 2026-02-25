@@ -1,0 +1,13 @@
+{
+  "prompt": "### Description:\n\n Remove all exclamation marks from sentence except at the end.\n\n### Examples\n\n```\nremove(\"Hi!\") == \"Hi!\"\nremove(\"Hi!!!\") == \"Hi!!!\"\nremove(\"!Hi\") == \"Hi\"\nremove(\"!Hi!\") == \"Hi!\"\nremove(\"Hi! Hi!\") == \"Hi Hi!\"\nremove(\"Hi\") == \"Hi\"\n```",
+  "secretary_judge": "command-a-03-2025",
+  "learning_size": 2,
+  "all_candidates": [
+    "command-a-03-2025",
+    "gemini-2.5-flash",
+    "mistral-large-latest",
+    "gpt-4",
+    "claude-3-5-sonnet-20241022",
+    "deepseek-chat"
+  ]
+}

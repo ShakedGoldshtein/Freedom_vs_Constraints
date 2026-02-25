@@ -1,0 +1,13 @@
+{
+  "prompt": "There are N bags, each containing two white balls. The i-th box contains two balls with integers x_i and y_i written on them, respectively.\nFor each of these bags, you will paint one of the balls red, and paint the other blue.\nAfterwards, the 2N balls will be classified according to color.\nThen, we will define the following:\n - R_{max}: the maximum integer written on a ball painted in red\n - R_{min}: the minimum integer written on a ball painted in red\n - B_{max}: the maximum integer written on a ball painted in blue\n - B_{min}: the minimum integer written on a ball painted in blue\nFind the minimum possible value of (R_{max} - R_{min}) \\times (B_{max} - B_{min}).\n\n-----Constraints-----\n - 1 \u2264 N \u2264 200,000\n - 1 \u2264 x_i, y_i \u2264 10^9\n\n-----Input-----\nInput is given from Standard Input in the following format:\nN\nx_1 y_1\nx_2 y_2\n:\nx_N y_N\n\n-----Output-----\nPrint the minimum possible value.\n\n-----Sample Input-----\n3\n1 2\n3 4\n5 6\n\n-----Sample Output-----\n15\n\nThe optimal solution is to paint the balls with x_1, x_2, y_3 red, and paint the balls with y_1, y_2, x_3 blue.",
+  "secretary_judge": "gpt-4",
+  "learning_size": 2,
+  "all_candidates": [
+    "gpt-4",
+    "gemini-2.5-flash",
+    "mistral-large-latest",
+    "command-a-03-2025",
+    "claude-3-5-sonnet-20241022",
+    "deepseek-chat"
+  ]
+}

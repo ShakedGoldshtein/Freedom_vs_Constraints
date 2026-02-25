@@ -1,0 +1,13 @@
+{
+  "prompt": "Given an\u00a0integer n, add a dot (\".\")\u00a0as the thousands separator and return it in\u00a0string format.\n\u00a0\nExample 1:\nInput: n = 987\nOutput: \"987\"\n\nExample 2:\nInput: n = 1234\nOutput: \"1.234\"\n\nExample 3:\nInput: n = 123456789\nOutput: \"123.456.789\"\n\nExample 4:\nInput: n = 0\nOutput: \"0\"\n\n\u00a0\nConstraints:\n\n0 <= n < 2^31",
+  "secretary_judge": "claude-3-5-sonnet-20241022",
+  "learning_size": 2,
+  "all_candidates": [
+    "claude-3-5-sonnet-20241022",
+    "mistral-large-latest",
+    "deepseek-chat",
+    "gpt-4",
+    "gemini-2.5-flash",
+    "command-a-03-2025"
+  ]
+}

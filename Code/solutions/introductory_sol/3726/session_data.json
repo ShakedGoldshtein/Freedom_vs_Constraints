@@ -1,0 +1,13 @@
+{
+  "prompt": "You have an array of numbers.  \nYour task is to sort ascending odd numbers but even numbers must be on their places.\n\nZero isn't an odd number and you don't need to move it. If you have an empty array, you need to return it.\n\n*Example*\n```python\nsort_array([5, 3, 2, 8, 1, 4]) == [1, 3, 2, 8, 5, 4]\n```",
+  "secretary_judge": "mistral-large-latest",
+  "learning_size": 2,
+  "all_candidates": [
+    "mistral-large-latest",
+    "gpt-4",
+    "claude-3-5-sonnet-20241022",
+    "command-a-03-2025",
+    "deepseek-chat",
+    "gemini-2.5-flash"
+  ]
+}

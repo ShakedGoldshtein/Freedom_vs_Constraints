@@ -1,0 +1,13 @@
+{
+  "prompt": "Chef wants to gift pairs to his friends this new year. But his friends like good pairs\nonly.\nA pair (a , b) is called a good pair if 1 <= a < b <= N such that GCD(a*b , P) = 1.\nSince Chef is busy in preparation for the party, he wants your help to find all the\ngood pairs.\n\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\nINPUT\n\u2022 The first line of the input contains a single integer T.\n\u2022 The first and only line of each test case contain two integer N,P.\n\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\nOUTPUT\nFor each test case, print a single line containing one integer \u2014 the total number of good\npairs\n\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\nCONSTRAINTS\n\u2022 1 \u2264 T\u2264 50\n\u2022 2 \u2264 N,P \u226410^5\n\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\nExample Input\n2\n2 3\n3 3\n\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\u2014\nExample Output\n1\n1",
+  "secretary_judge": "gpt-4",
+  "learning_size": 2,
+  "all_candidates": [
+    "gpt-4",
+    "claude-3-5-sonnet-20241022",
+    "deepseek-chat",
+    "mistral-large-latest",
+    "command-a-03-2025",
+    "gemini-2.5-flash"
+  ]
+}

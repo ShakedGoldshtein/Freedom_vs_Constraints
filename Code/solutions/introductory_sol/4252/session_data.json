@@ -1,0 +1,13 @@
+{
+  "prompt": "Write a function that merges two sorted arrays into a single one. The arrays only contain integers. Also, the final outcome must be sorted and not have any duplicate.",
+  "secretary_judge": "claude-3-5-sonnet-20241022",
+  "learning_size": 2,
+  "all_candidates": [
+    "claude-3-5-sonnet-20241022",
+    "gpt-4",
+    "gemini-2.5-flash",
+    "command-a-03-2025",
+    "deepseek-chat",
+    "mistral-large-latest"
+  ]
+}

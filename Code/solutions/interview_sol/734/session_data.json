@@ -1,0 +1,13 @@
+{
+  "prompt": "Chef has $N$ markers. There is a cap on each marker. For each valid $i$, the $i$-th marker has colour $a_i$. Initially, for each valid $i$, the colour of the cap on the $i$-th marker is also $a_i$.\nChef wants to rearrange the caps in such a way that no marker has the same colour as its cap. (Obviously, each marker must have exactly one cap.) Can he do that? If he can, find one such way to rearrange the caps. If there are multiple solutions, you may find any one.\n\n-----Input-----\n- The first line of the input contains a single integer $T$ denoting the number of test cases. The description of $T$ test cases follows.\n- The first line of each test case contains a single integer $N$.\n- The second line contains $N$ space-separated integers $a_1, a_2, \\ldots, a_N$.\n\n-----Output-----\n- For each test case:\n- If Chef cannot successfully rearrange the caps, print a single line containing the string \"No\" (without quotes).\n- Otherwise, print two lines. The first line should contain the string \"Yes\" (without quotes). The second line should contain $N$ space-separated integers describing a valid rearrangement of caps. For each valid $i$, the $i$-th of these integers should denote the final colour of the cap on the $i$-th marker.\n\n-----Constraints-----\n- $1 \\le T \\le 10$\n- $1 \\le N \\le 10^5$\n- $1 \\le a_i \\le 10^9$ for each valid $i$\n\n-----Example Input-----\n2\n9\n1 1 1 2 2 2 3 3 3\n2\n1 1\n\n-----Example Output-----\nYes\n2 2 2 3 3 3 1 1 1\nNo",
+  "secretary_judge": "command-a-03-2025",
+  "learning_size": 2,
+  "all_candidates": [
+    "command-a-03-2025",
+    "mistral-large-latest",
+    "claude-3-5-sonnet-20241022",
+    "deepseek-chat",
+    "gpt-4",
+    "gemini-2.5-flash"
+  ]
+}

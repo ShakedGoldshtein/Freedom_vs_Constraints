@@ -1,0 +1,13 @@
+{
+  "prompt": "Given two equal-size strings s and t. In one step you can choose any character of t and replace it with another character.\nReturn the minimum number of steps to make t\u00a0an anagram of s.\nAn\u00a0Anagram\u00a0of a\u00a0string\u00a0is a string that contains the same characters with a different (or the same) ordering.\n\u00a0\nExample 1:\nInput: s = \"bab\", t = \"aba\"\nOutput: 1\nExplanation: Replace the first 'a' in t with b, t = \"bba\" which is anagram of s.\n\nExample 2:\nInput: s = \"leetcode\", t = \"practice\"\nOutput: 5\nExplanation: Replace 'p', 'r', 'a', 'i' and 'c' from t with proper characters to make t anagram of s.\n\nExample 3:\nInput: s = \"anagram\", t = \"mangaar\"\nOutput: 0\nExplanation: \"anagram\" and \"mangaar\" are anagrams. \n\nExample 4:\nInput: s = \"xxyyzz\", t = \"xxyyzz\"\nOutput: 0\n\nExample 5:\nInput: s = \"friend\", t = \"family\"\nOutput: 4\n\n\u00a0\nConstraints:\n\n1 <= s.length <= 50000\ns.length == t.length\ns and t contain lower-case English letters only.",
+  "secretary_judge": "gemini-2.5-flash",
+  "learning_size": 2,
+  "all_candidates": [
+    "gemini-2.5-flash",
+    "command-a-03-2025",
+    "mistral-large-latest",
+    "claude-3-5-sonnet-20241022",
+    "gpt-4",
+    "deepseek-chat"
+  ]
+}

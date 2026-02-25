@@ -1,0 +1,13 @@
+{
+  "prompt": "A matrix B (consisting of integers) of dimension N \u00d7 N is said to be good if there exists an array A (consisting of integers) such that B[i][j]  = |A[i] - A[j]|, where |x| denotes absolute value of integer x.\nYou are given a partially filled matrix B of dimension N \u00d7 N. Q of the entries of this matrix are filled by either 0 or 1. You have to identify whether it is possible to fill the remaining entries of matrix B (the entries can be filled by any integer, not necessarily by 0 or 1) such that the resulting fully filled matrix B is good.\n\n-----Input-----\nThe first line of the input contains an integer T denoting the number of test cases. \nThe first line of each test case contains two space separated integers N, Q.\nEach of the next Q lines contain three space separated integers i, j, val, which means that B[i][j] is filled with value val.\n\n-----Output-----\nFor each test case, output \"yes\" or \"no\" (without quotes) in a single line corresponding to the answer of the problem.\n\n-----Constraints-----\n- 1 \u2264 T \u2264 106\n- 2 \u2264 N \u2264 105\n- 1 \u2264 Q \u2264 106\n- 1 \u2264 i, j \u2264 N\n- 0 \u2264 val \u2264 1\n- Sum of each of N, Q over all test cases doesn't exceed 106\n\n-----Subtasks-----\n- Subtask #1 (40 points) 2 \u2264 N \u2264 103, 1 \u2264 Q \u2264 103, Sum of each of N, Q over all test cases doesn't exceed 104\n- Subtask #2 (60 points) Original Constraints\n\n-----Example-----\nInput\n4\n2 2\n1 1 0\n1 2 1\n2 3\n1 1 0\n1 2 1\n2 1 0\n3 2\n2 2 0\n2 3 1\n3 3\n1 2 1\n2 3 1\n1 3 1\n\nOutput\nyes\nno\nyes\nno\n\n-----Explanation-----\nExample 1. You can fill the entries of matrix B as follows. \n\n0 1\n1 0\nThis matrix corresponds to the array A = [1, 2].\n\nExample 2. It is impossible to fill the remaining entries of matrix B such that the resulting matrix is good, as B[1][2] = 1 and B[2][1] = 0, which is impossible.",
+  "secretary_judge": "mistral-large-latest",
+  "learning_size": 2,
+  "all_candidates": [
+    "mistral-large-latest",
+    "gemini-2.5-flash",
+    "claude-3-5-sonnet-20241022",
+    "command-a-03-2025",
+    "gpt-4",
+    "deepseek-chat"
+  ]
+}

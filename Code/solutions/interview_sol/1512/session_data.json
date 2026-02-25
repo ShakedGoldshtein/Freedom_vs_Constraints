@@ -1,0 +1,13 @@
+{
+  "prompt": "Tuzik and Vanya are playing the following game.\nThey have an N \u00d7 M board and a chip to indicate the current game position. The chip can be placed on any one cell of the game board, each of which is uniquely identified by an ordered pair of positive integers (r, c), where 1 \u2264 r \u2264 N is the row number and 1 \u2264 c \u2264 M is the column number.\nInitially, the chip is placed at the cell identified as (1, 1). For his move, a player can move it either 1, 2 or 3 cells up, or 1 or 2 cells to the right. The player who can not move the chip loses. In other words, a player suffers defeat if the chip is placed in the cell (N, M) at the start of his turn.\nTuzik starts the game. You have to determine who will win the game if both players play optimally.\n\n-----Input-----\nThe first line contains an integer T denoting the number of tests. Each of the following T lines contain two integers N and M.\n\n-----Output-----\nFor each test output \"Tuzik\" or \"Vanya\" on a separate line, indicating who will win the game.\n\n-----Constraints-----\n- 1 \u2264 T \u2264 100\n- 1 \u2264 N, M \u2264 106\n\n-----Example-----\nInput:\n2\n4 4\n2 2\n\nOutput:\nTuzik\nVanya\n\n\n-----Explanation-----Test case 1: On his first turn Tuzik moves chip 3 cells up to the cell (4, 1). On his turn Vanya can move chip only right to the cell (4, 2) or to the cell (4, 3) and after that Tuzik moves it to (4, 4) and finishes the game.\n\nTest case 2: On his first Turn Tuzik can move chip to the cell (2, 1) or (1, 2), but on his next turn Vanya moves it to (2, 2) and wins the game.",
+  "secretary_judge": "claude-3-5-sonnet-20241022",
+  "learning_size": 2,
+  "all_candidates": [
+    "claude-3-5-sonnet-20241022",
+    "command-a-03-2025",
+    "mistral-large-latest",
+    "gpt-4",
+    "gemini-2.5-flash",
+    "deepseek-chat"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "prompt": "=====Function Descriptions=====\nzeros\n\nThe zeros tool returns a new array with a given shape and type filled with 0's.\n\nimport numpy\n\nprint numpy.zeros((1,2))                    #Default type is float\n#Output : [[ 0.  0.]] \n\nprint numpy.zeros((1,2), dtype = numpy.int) #Type changes to int\n#Output : [[0 0]]\n\nones\n\nThe ones tool returns a new array with a given shape and type filled with 1's.\n\nimport numpy\n\nprint numpy.ones((1,2))                    #Default type is float\n#Output : [[ 1.  1.]] \n\nprint numpy.ones((1,2), dtype = numpy.int) #Type changes to int\n#Output : [[1 1]]   \n\n=====Problem Statement=====\nYou are given the shape of the array in the form of space-separated integers, each integer representing the size of different dimensions, your task is to print an array of the given shape and integer type using the tools numpy.zeros and numpy.ones.\n\n=====Input Format=====\nA single line containing the space-separated integers.\n\n=====Constraints=====\n1\u2264each integer\u22643\n\n=====Output Format=====\nFirst, print the array using the numpy.zeros tool and then print the array with the numpy.ones tool.",
+  "secretary_judge": "claude-3-5-sonnet-20241022",
+  "learning_size": 2,
+  "all_candidates": [
+    "claude-3-5-sonnet-20241022",
+    "deepseek-chat",
+    "command-a-03-2025",
+    "mistral-large-latest",
+    "gemini-2.5-flash",
+    "gpt-4"
+  ]
+}

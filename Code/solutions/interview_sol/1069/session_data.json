@@ -1,0 +1,13 @@
+{
+  "prompt": "Shivam is the youngest programmer in the world, he is just 12 years old. Shivam is learning programming and today he is writing his first program. \n\nProgram is very simple, Given two integers A and B, write a program to add these two numbers.\n\n-----Input-----\n\nThe first line contains an integer T, the total number of test cases. Then follow T lines, each line contains two Integers A and B. \n\n-----Output-----\nFor each test case, add A and B and display it in a new line.\n\n-----Constraints-----\n- 1 \u2264 T \u2264 1000\n- 0 \u2264 A,B \u2264 10000\n\n-----Example-----\nInput\n3 \n1 2\n100 200\n10 40\n\nOutput\n3\n300\n50",
+  "secretary_judge": "gemini-2.5-flash",
+  "learning_size": 2,
+  "all_candidates": [
+    "gemini-2.5-flash",
+    "command-a-03-2025",
+    "mistral-large-latest",
+    "gpt-4",
+    "claude-3-5-sonnet-20241022",
+    "deepseek-chat"
+  ]
+}

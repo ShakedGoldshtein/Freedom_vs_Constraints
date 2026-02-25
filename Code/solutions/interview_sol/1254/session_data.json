@@ -1,0 +1,13 @@
+{
+  "prompt": "Chef wants to organize a contest. Predicting difficulty levels of the problems can be a daunting task. Chef wants his contests to be balanced in terms of difficulty levels of the problems.\nAssume a contest had total P participants. A problem that was solved by at least half of the participants (i.e. P / 2 (integer division)) is said to be cakewalk difficulty. A problem solved by at max P / 10 (integer division) participants is categorized to be a hard difficulty.\nChef wants the contest to be balanced. According to him, a balanced contest must have exactly 1 cakewalk and exactly 2 hard problems. You are given the description of N problems and the number of participants solving those problems. Can you tell whether the contest was balanced or not?\n\n-----Input-----\nThe first line of the input contains an integer T denoting the number of test cases.\nThe first line of each test case contains two space separated integers, N, P denoting the number of problems, number of participants respectively.\nThe second line contains N space separated integers, i-th of which denotes number of participants solving the i-th problem.\n\n-----Output-----\nFor each test case, output \"yes\" or \"no\" (without quotes) denoting whether the contest is balanced or not.\n\n-----Constraints-----\n- 1 \u2264 T, N \u2264 500 \n- 1 \u2264 P \u2264 108 \n- 1 \u2264 Number of participants solving a problem \u2264 P\n\n-----Subtasks-----\n- Subtask #1 (40 points): P is a multiple of 10\n- Subtask #2 (60 points): Original constraints\n\n-----Example-----\nInput\n6\n3 100\n10 1 100\n3 100\n11 1 100\n3 100\n10 1 10\n3 100\n10 1 50\n4 100\n50 50 50 50\n4 100\n1 1 1 1\n\nOutput\nyes\nno\nno\nyes\nno\nno\n\n-----Explanation-----\nExample case 1.: The problems are of hard, hard and cakewalk difficulty. There is 1 cakewalk and 2 hard problems, so the contest is balanced.\nExample case 2.: The second problem is hard and the third is cakewalk. There is 1 cakewalk and 1 hard problem, so the contest is not balanced.\nExample case 3.: All the three problems are hard. So the contest is not balanced.\nExample case 4.: The problems are of hard, hard, cakewalk difficulty. The contest is balanced.\nExample case 5.: All the problems are cakewalk. The contest is not balanced.\nExample case 6.: All the problems are hard. The contest is not balanced.",
+  "secretary_judge": "command-a-03-2025",
+  "learning_size": 2,
+  "all_candidates": [
+    "command-a-03-2025",
+    "mistral-large-latest",
+    "gemini-2.5-flash",
+    "deepseek-chat",
+    "gpt-4",
+    "claude-3-5-sonnet-20241022"
+  ]
+}

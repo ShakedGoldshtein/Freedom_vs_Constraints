@@ -1,0 +1,13 @@
+{
+  "prompt": "You are given an array a with n distinct integers. Construct an array b by permuting a such that for every non-empty subset of indices S = {x_1, x_2, ..., x_{k}} (1 \u2264 x_{i} \u2264 n, 0 < k < n) the sums of elements on that positions in a and b are different, i.\u00a0e. $\\sum_{i = 1}^{k} a_{x_{i}} \\neq \\sum_{i = 1}^{k} b_{x_{i}}$\n\n\n-----Input-----\n\nThe first line contains one integer n (1 \u2264 n \u2264 22)\u00a0\u2014 the size of the array.\n\nThe second line contains n space-separated distinct integers a_1, a_2, ..., a_{n} (0 \u2264 a_{i} \u2264 10^9)\u00a0\u2014 the elements of the array.\n\n\n-----Output-----\n\nIf there is no such array b, print -1.\n\nOtherwise in the only line print n space-separated integers b_1, b_2, ..., b_{n}. Note that b must be a permutation of a.\n\nIf there are multiple answers, print any of them.\n\n\n-----Examples-----\nInput\n2\n1 2\n\nOutput\n2 1 \n\nInput\n4\n1000 100 10 1\n\nOutput\n100 1 1000 10\n\n\n\n-----Note-----\n\nAn array x is a permutation of y, if we can shuffle elements of y such that it will coincide with x.\n\nNote that the empty subset and the subset containing all indices are not counted.",
+  "secretary_judge": "gpt-4",
+  "learning_size": 2,
+  "all_candidates": [
+    "gpt-4",
+    "command-a-03-2025",
+    "mistral-large-latest",
+    "claude-3-5-sonnet-20241022",
+    "gemini-2.5-flash",
+    "deepseek-chat"
+  ]
+}

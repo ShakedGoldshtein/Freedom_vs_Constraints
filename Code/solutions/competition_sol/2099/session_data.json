@@ -1,0 +1,13 @@
+{
+  "prompt": "Permutation p is an ordered set of integers p_1,   p_2,   ...,   p_{n}, consisting of n distinct positive integers not larger than n. We'll denote as n the length of permutation p_1,   p_2,   ...,   p_{n}.\n\nYour task is to find such permutation p of length n, that the group of numbers |p_1 - p_2|, |p_2 - p_3|, ..., |p_{n} - 1 - p_{n}| has exactly k distinct elements.\n\n\n-----Input-----\n\nThe single line of the input contains two space-separated positive integers n, k (1 \u2264 k < n \u2264 10^5).\n\n\n-----Output-----\n\nPrint n integers forming the permutation. If there are multiple answers, print any of them.\n\n\n-----Examples-----\nInput\n3 2\n\nOutput\n1 3 2\n\nInput\n3 1\n\nOutput\n1 2 3\n\nInput\n5 2\n\nOutput\n1 3 2 4 5\n\n\n\n-----Note-----\n\nBy |x| we denote the absolute value of number x.",
+  "secretary_judge": "command-a-03-2025",
+  "learning_size": 2,
+  "all_candidates": [
+    "command-a-03-2025",
+    "claude-3-5-sonnet-20241022",
+    "deepseek-chat",
+    "mistral-large-latest",
+    "gpt-4",
+    "gemini-2.5-flash"
+  ]
+}

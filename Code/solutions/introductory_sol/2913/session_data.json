@@ -1,0 +1,13 @@
+{
+  "prompt": "This will probably be a little series :)\n\nX-Shape\n\nYou will get an odd Integer n (>= 3) and your task is to draw a X. Each line is separated with '\\n'.\n\nUse the following characters:  \u25a0\u00a0\u25a1\n\nFor Ruby, Crystal and PHP:   whitespace and o \n\ne.g.:\n\n\n\n                                     \u25a0\u25a1\u25a1\u25a1\u25a0\n            \u25a0\u25a1\u25a0                      \u25a1\u25a0\u25a1\u25a0\u25a1\n  x(3) =>   \u25a1\u25a0\u25a1              x(5)=>  \u25a1\u25a1\u25a0\u25a1\u25a1\n            \u25a0\u25a1\u25a0                      \u25a1\u25a0\u25a1\u25a0\u25a1\n                                     \u25a0\u25a1\u25a1\u25a1\u25a0\n\n\n Series: ASCII Fun\n\nASCII Fun #1: X-Shape\nASCII Fun #2: Funny Dots\nASCII Fun #3: Puzzle Tiles\nASCII Fun #4: Build a pyramid",
+  "secretary_judge": "command-a-03-2025",
+  "learning_size": 2,
+  "all_candidates": [
+    "command-a-03-2025",
+    "gpt-4",
+    "claude-3-5-sonnet-20241022",
+    "mistral-large-latest",
+    "deepseek-chat",
+    "gemini-2.5-flash"
+  ]
+}

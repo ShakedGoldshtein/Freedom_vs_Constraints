@@ -1,0 +1,13 @@
+{
+  "prompt": "The chef was busy in solving algebra, he found some interesting results, that there are many numbers which can be formed by sum of some numbers which are prime. Chef wrote those numbers in dairy. Cheffina came and saw what the chef was doing. Cheffina immediately closed chef's dairy and for testing chef's memory, she starts asking numbers and chef needs to answer wheater given number N can be formed by the sum of K prime numbers if it yes then print 1 else print 0. \n\n-----Input:-----\n- First-line will contain $T$, the number of test cases. Then the test cases follow. \n- Each test case contains a single line of input, two integers $N, K$.\n\n-----Output:-----\nFor each test case, output in a single line answer as 1 or 0.\n\n-----Constraints-----\n- $1 \\leq T \\leq 10^5$\n- $2 \\leq N \\leq 10^5$\n- $1 \\leq K \\leq 10^5$\n\n-----Sample Input:-----\n2\n12 2\n11 2\n\n-----Sample Output:-----\n1\n0",
+  "secretary_judge": "mistral-large-latest",
+  "learning_size": 2,
+  "all_candidates": [
+    "mistral-large-latest",
+    "gemini-2.5-flash",
+    "deepseek-chat",
+    "claude-3-5-sonnet-20241022",
+    "command-a-03-2025",
+    "gpt-4"
+  ]
+}

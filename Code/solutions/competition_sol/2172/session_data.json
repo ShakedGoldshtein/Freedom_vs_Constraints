@@ -1,0 +1,13 @@
+{
+  "prompt": "Let's assume that   v(n) is the largest prime number, that does not exceed n;\n\n u(n) is the smallest prime number strictly greater than n. \n\nFind $\\sum_{i = 2}^{n} \\frac{1}{v(i) u(i)}$.\n\n\n-----Input-----\n\nThe first line contains integer t\u00a0(1 \u2264 t \u2264 500) \u2014 the number of testscases. \n\nEach of the following t lines of the input contains integer n (2 \u2264 n \u2264 10^9).\n\n\n-----Output-----\n\nPrint t lines: the i-th of them must contain the answer to the i-th test as an irreducible fraction \"p/q\", where p, q are integers, q > 0.\n\n\n-----Examples-----\nInput\n2\n2\n3\n\nOutput\n1/6\n7/30",
+  "secretary_judge": "mistral-large-latest",
+  "learning_size": 2,
+  "all_candidates": [
+    "mistral-large-latest",
+    "gpt-4",
+    "deepseek-chat",
+    "command-a-03-2025",
+    "claude-3-5-sonnet-20241022",
+    "gemini-2.5-flash"
+  ]
+}

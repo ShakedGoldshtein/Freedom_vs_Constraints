@@ -1,0 +1,13 @@
+{
+  "prompt": "The Padovan sequence is the sequence of integers `P(n)` defined by the initial values\n\n`P(0)=P(1)=P(2)=1`\n\nand the recurrence relation\n\n`P(n)=P(n-2)+P(n-3)`\n\nThe first few values of `P(n)` are\n\n`1, 1, 1, 2, 2, 3, 4, 5, 7, 9, 12, 16, 21, 28, 37, 49, 65, 86, 114, 151, 200, 265, ...`\n\n### Task \n\nThe task is to write a method that returns i-th Padovan number\n\n```python\n> padovan(0) == 1\n> padovan(1) == 1\n> padovan(2) == 1\n> padovan(n) = padovan(n-2) + padovan(n-3)\n```",
+  "secretary_judge": "deepseek-chat",
+  "learning_size": 2,
+  "all_candidates": [
+    "deepseek-chat",
+    "command-a-03-2025",
+    "claude-3-5-sonnet-20241022",
+    "gpt-4",
+    "gemini-2.5-flash",
+    "mistral-large-latest"
+  ]
+}

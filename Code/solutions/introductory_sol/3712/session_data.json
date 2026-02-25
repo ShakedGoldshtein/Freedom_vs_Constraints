@@ -1,0 +1,13 @@
+{
+  "prompt": "## Task\n\nYour challenge is to write a function named `getSlope`/`get_slope`/`GetSlope` that calculates the slope of the line through two points.\n\n## Input\n\n```if:javascript,python\nEach point that the function takes in is an array 2 elements long. The first number is the x coordinate and the second number is the y coordinate.\nIf the line through the two points is vertical or if the same point is given twice, the function should return `null`/`None`.\n```\n\n```if:csharp\n`GetSlope` will take in two Point objects. If the line through the two points is vertical, or the two points are the same, return `null`.\n\nThe Point object:\n\n~~~\npublic class Point : System.Object\n{\n  public double X;\n  public double Y;\n  \n  public Point(double x, double y)\n  {\n    this.X = x;\n    this.Y = y;\n  }\n  \n  public override string ToString()\n  {\n    return $\"({this.X}, {this.Y})\";\n  }\n  \n  public override bool Equals(object point)\n  {\n    // Typechecking\n    if (point == null || point.GetType() != this.GetType())\n    {\n      return false;\n    }\n    \n    return this.ToString() == point.ToString();\n  }\n}\n~~~\n\n```",
+  "secretary_judge": "command-a-03-2025",
+  "learning_size": 2,
+  "all_candidates": [
+    "command-a-03-2025",
+    "gemini-2.5-flash",
+    "mistral-large-latest",
+    "deepseek-chat",
+    "gpt-4",
+    "claude-3-5-sonnet-20241022"
+  ]
+}

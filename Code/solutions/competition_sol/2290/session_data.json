@@ -1,0 +1,13 @@
+{
+  "prompt": "We have a board with an H \\times W grid.\nEach square in the grid is painted in black or white. The square at the i-th row from the top and j-th column from the left is black if the j-th character in S_i is #, and white if that character is ..\nSnuke can perform the following operation on the grid any number of times:\n - Select a row or column in the grid, and invert the color of all the squares in that row or column (that is, black squares become white and vice versa).\nThen, Snuke draws a rectangle along grid lines. Here, all the squares contained in the rectangle must be painted in black.\nFind the maximum possible area of Snuke's rectangle when the operation is performed optimally.\n\n-----Constraints-----\n - 2 \\leq H \\leq 2000\n - 2 \\leq W \\leq 2000\n - |S_i| = W\n - S_i consists of # and ..\n\n-----Input-----\nInput is given from Standard Input in the following format:\nH W\nS_1\nS_2\n:\nS_H\n\n-----Output-----\nPrint the maximum possible area of Snuke's rectangle.\n\n-----Sample Input-----\n3 3\n..#\n##.\n.#.\n\n-----Sample Output-----\n6\n\nIf the first row from the top and the third column from the left are inverted, a 2 \\times 3 rectangle can be drawn, as shown below:",
+  "secretary_judge": "mistral-large-latest",
+  "learning_size": 2,
+  "all_candidates": [
+    "mistral-large-latest",
+    "command-a-03-2025",
+    "deepseek-chat",
+    "gemini-2.5-flash",
+    "gpt-4",
+    "claude-3-5-sonnet-20241022"
+  ]
+}

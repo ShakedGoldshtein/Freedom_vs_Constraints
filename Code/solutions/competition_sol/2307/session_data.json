@@ -1,0 +1,13 @@
+{
+  "prompt": "There are N towns on a line running east-west.\nThe towns are numbered 1 through N, in order from west to east.\nEach point on the line has a one-dimensional coordinate, and a point that is farther east has a greater coordinate value.\nThe coordinate of town i is X_i.\nYou are now at town 1, and you want to visit all the other towns.\nYou have two ways to travel:\n - Walk on the line.\nYour fatigue level increases by A each time you travel a distance of 1, regardless of direction.\n - Teleport to any location of your choice.\nYour fatigue level increases by B, regardless of the distance covered.\nFind the minimum possible total increase of your fatigue level when you visit all the towns in these two ways.\n\n-----Constraints-----\n - All input values are integers.\n - 2\u2264N\u226410^5\n - 1\u2264X_i\u226410^9\n - For all i(1\u2264i\u2264N-1), X_i<X_{i+1}.\n - 1\u2264A\u226410^9\n - 1\u2264B\u226410^9\n\n-----Input-----\nThe input is given from Standard Input in the following format:\nN A B\nX_1 X_2 ... X_N\n\n-----Output-----\nPrint the minimum possible total increase of your fatigue level when you visit all the towns.\n\n-----Sample Input-----\n4 2 5\n1 2 5 7\n\n-----Sample Output-----\n11\n\nFrom town 1, walk a distance of 1 to town 2, then teleport to town 3, then walk a distance of 2 to town 4.\nThe total increase of your fatigue level in this case is 2\u00d71+5+2\u00d72=11, which is the minimum possible value.",
+  "secretary_judge": "mistral-large-latest",
+  "learning_size": 2,
+  "all_candidates": [
+    "mistral-large-latest",
+    "gpt-4",
+    "deepseek-chat",
+    "claude-3-5-sonnet-20241022",
+    "gemini-2.5-flash",
+    "command-a-03-2025"
+  ]
+}

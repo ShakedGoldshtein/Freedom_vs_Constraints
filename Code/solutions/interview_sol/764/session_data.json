@@ -1,0 +1,13 @@
+{
+  "prompt": "Chef has just found a recipe book, where every dish consists of exactly four ingredients.\nHe is going to choose some two dishes and prepare them for dinner.\nOf course, he likes diversity and wants to know whether the two dishes are similar.\nTwo dishes are called similar if at least half of their ingredients are the same.\nIn other words, at least two of four ingredients of the first dish should also be present in the second dish.\nThe order of ingredients doesn't matter.\nYour task is to examine T pairs of dishes.\nFor each pair, check if the two dishes are similar and print \"similar\" or \"dissimilar\" accordingly.\n\n-----Input-----\nThe first line of the input contains an integer T denoting the number of test cases. The description of T test cases follows.\n\nThe first line of each test case contains four distinct strings, denoting ingredients needed for the first dish.\nEach ingredient is represented by a string of length between 2 and 10 inclusive, consisting of lowercase English letters.\n\nThe second line of each test case describes the second dish in the same format.\n\n-----Output-----\nFor each test case, output a single line containing the answer \u2014 \"similar\" if at least half of the ingredients are same, and \"dissimilar\" otherwise (without the quotes).\n\n-----Constraints-----\n- 1 \u2264 T \u2264 200\n- The length of each string will be between 2 and 10 inclusive.\n\n-----Example-----\nInput:\n5\neggs sugar flour salt\nsugar eggs milk flour\naa ab ac ad\nac ad ae af\ncookies sugar grass lemon\nlemon meat chili wood\none two three four\none two three four\ngibberish jibberish lalalalala popopopopo\njibberisz gibberisz popopopopu lalalalalu\n\nOutput:\nsimilar\nsimilar\ndissimilar\nsimilar\ndissimilar\n\n-----Explanation-----\nTest case 1. The first dish consists of ingredients: eggs, sugar, flour, salt, while the second dish consists of: sugar, eggs, milk, flour. Three of four ingredients are present in both dishes (eggs, sugar, flour) so the two dishes are similar.\nTest case 2. This example shows that strings in the input don't necessarily represent real food.\nThe answer is again \"similar\", because two ingredients are present in both dishes (\"ac\" and \"ad\").\nTest case 3. The only common ingredient is lemon, so the answer is \"dissimilar\".\nRemember that at least two ingredients should be present in both dishes.",
+  "secretary_judge": "deepseek-chat",
+  "learning_size": 2,
+  "all_candidates": [
+    "deepseek-chat",
+    "command-a-03-2025",
+    "mistral-large-latest",
+    "gpt-4",
+    "gemini-2.5-flash",
+    "claude-3-5-sonnet-20241022"
+  ]
+}

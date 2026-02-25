@@ -1,0 +1,13 @@
+{
+  "prompt": "German mathematician Christian Goldbach (1690-1764) [conjectured](https://en.wikipedia.org/wiki/Goldbach%27s_conjecture) that every even number greater than 2 can be represented by the sum of two prime numbers. For example, `10` can be represented as `3+7` or `5+5`.\n\nYour job is to make the function return a list containing all unique possible representations of `n` in an increasing order if `n` is an even integer; if `n` is odd, return an empty list. Hence, the first addend must always be less than or equal to the second to avoid duplicates.\n\nConstraints : `2 < n < 32000` and `n` is even\n\n\n## Examples\n```\n26  -->  ['3+23', '7+19', '13+13']\n\n100 -->  ['3+97', '11+89', '17+83', '29+71', '41+59', '47+53']\n\n7   -->  [] \n```",
+  "secretary_judge": "gemini-2.5-flash",
+  "learning_size": 2,
+  "all_candidates": [
+    "gemini-2.5-flash",
+    "deepseek-chat",
+    "mistral-large-latest",
+    "claude-3-5-sonnet-20241022",
+    "command-a-03-2025",
+    "gpt-4"
+  ]
+}

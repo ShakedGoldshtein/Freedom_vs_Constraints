@@ -1,0 +1,13 @@
+{
+  "prompt": ">When no more interesting kata can be resolved, I just choose to create the new kata, to solve their own, to enjoy the process  --myjinxin2015 said\n\n# Description:\n Given a string `str` that contains some \"(\" or \")\". Your task is to find the longest substring in `str`(all brackets in the substring are closed). The result is the length of the longest substring.\n\n For example:\n ```\n str = \"()()(\"\n findLongest(str) === 4 \n \"()()\" is the longest substring\n ```\n \n# Note:\n - All inputs are valid.\n - If no such substring found, return 0.\n - Please pay attention to the performance of code. ;-)\n - In the performance test(100000 brackets str x 100 testcases), the time consuming of each test case should be within 35ms. This means, your code should run as fast as a rocket ;-) \n \n# Some Examples\n ```\n findLongest(\"()\") === 2\n findLongest(\"()(\") === 2\n findLongest(\"()()\") === 4\n findLongest(\"()()(\") === 4\n findLongest(\"(()())\") === 6\n findLongest(\"(()(())\") === 6\n findLongest(\"())(()))\") === 4\n findLongest(\"))((\") === 0\n findLongest(\"\") === 0\n ```",
+  "secretary_judge": "claude-3-5-sonnet-20241022",
+  "learning_size": 2,
+  "all_candidates": [
+    "claude-3-5-sonnet-20241022",
+    "command-a-03-2025",
+    "gemini-2.5-flash",
+    "gpt-4",
+    "deepseek-chat",
+    "mistral-large-latest"
+  ]
+}

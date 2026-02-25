@@ -1,0 +1,13 @@
+{
+  "prompt": "Create a __moreZeros__ function which will __receive a string__ for input, and __return an array__ (or null terminated string in C) containing only the characters from that string whose __binary representation of its ASCII value__ consists of _more zeros than ones_. \n\nYou should __remove any duplicate characters__, keeping the __first occurence__ of any such duplicates, so they are in the __same order__ in the final array as they first appeared in the input string.\n\nExamples\n\n            \nAll input will be valid strings of length > 0. Leading zeros in binary should not be counted.",
+  "secretary_judge": "claude-3-5-sonnet-20241022",
+  "learning_size": 2,
+  "all_candidates": [
+    "claude-3-5-sonnet-20241022",
+    "gpt-4",
+    "gemini-2.5-flash",
+    "deepseek-chat",
+    "mistral-large-latest",
+    "command-a-03-2025"
+  ]
+}

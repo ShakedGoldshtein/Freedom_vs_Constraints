@@ -1,0 +1,13 @@
+{
+  "prompt": "There are several (or no) spiders, butterflies, and dragonflies. \n\nIn this kata, a spider has eight legs. A dragonfly or a butterfly has six legs. A __dragonfly__ has __two__ pairs of wings, while a __butterfly__ has __one__ pair of wings. __I am not sure whether they are biologically correct, but the values apply here. __\n\nGiven the number of total heads, legs, and __pairs of__ wings, please calculate numbers of each kind of bugs. Of course they are integers. \n_However, I do not guarantee that they are positive in the test cases. \nPlease regard the minus numbers as cases that does not make sense. _\n\nIf answers make sense, return [n\\_spider, n\\_butterfly, n\\_dragonfly]; \nelse, please return [-1, -1, -1]. \n\nExample: \n\ncal\\_n\\_bug(3, 20, 3) = [1, 1, 1]\nOne spider, one butterfly, one dragonfly in total have three heads, twenty legs (8 for the spider, 6 for the butterfly, and 6 for the dragonfly), and _three pairs_ of wings (1 for the butterfly and 2 for the dragonfly).",
+  "secretary_judge": "mistral-large-latest",
+  "learning_size": 2,
+  "all_candidates": [
+    "mistral-large-latest",
+    "deepseek-chat",
+    "command-a-03-2025",
+    "claude-3-5-sonnet-20241022",
+    "gpt-4",
+    "gemini-2.5-flash"
+  ]
+}

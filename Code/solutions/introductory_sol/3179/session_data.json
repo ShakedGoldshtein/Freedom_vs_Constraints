@@ -1,0 +1,13 @@
+{
+  "prompt": "# Task\n You are given three integers `l, d and x`. Your task is:\n```\n\u2022 determine the minimal integer n \n    such that l \u2264 n \u2264 d, and the sum of its digits equals x.\n\u2022 determine the maximal integer m \n    such that l \u2264 m \u2264 d, and the sum of its digits equals x.\n```\nIt is guaranteed that such numbers always exist.\n\n# Input/Output\n\n\n - `[input]` integer `l`\n\n - `[input]` integer `d`\n\n  `1 \u2264 l \u2264 d \u2264 10000.`\n\n\n - `[input]` integer `x`\n\n  `1 \u2264 x \u2264 36`\n\n\n - `[output]` an integer array\n\n  Array of two elements, where the first element is `n`, and the second one is `m`.\n\n\n# Example\n\n For `l = 500, d = 505, x = 10`, the output should be `[505, 505]`.\n \n For `l = 100, d = 200, x = 10`, the output should be `[109, 190]`.",
+  "secretary_judge": "gemini-2.5-flash",
+  "learning_size": 2,
+  "all_candidates": [
+    "gemini-2.5-flash",
+    "gpt-4",
+    "deepseek-chat",
+    "mistral-large-latest",
+    "command-a-03-2025",
+    "claude-3-5-sonnet-20241022"
+  ]
+}

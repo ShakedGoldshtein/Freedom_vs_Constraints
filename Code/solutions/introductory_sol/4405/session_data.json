@@ -1,0 +1,13 @@
+{
+  "prompt": "# Palindrome strings\n\nA palindrome is a word, phrase, number, or other sequence of characters which reads the same backward or forward. This includes capital letters, punctuation, and word dividers.\n\nImplement a function that checks if something is a palindrome.\n\n## Examples\n```\nisPalindrome(\"anna\")   ==> true\nisPalindrome(\"walter\") ==> false\nisPalindrome(12321)    ==> true\nisPalindrome(123456)   ==> false\n```",
+  "secretary_judge": "claude-3-5-sonnet-20241022",
+  "learning_size": 2,
+  "all_candidates": [
+    "claude-3-5-sonnet-20241022",
+    "command-a-03-2025",
+    "deepseek-chat",
+    "gpt-4",
+    "mistral-large-latest",
+    "gemini-2.5-flash"
+  ]
+}

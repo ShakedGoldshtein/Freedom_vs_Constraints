@@ -1,0 +1,13 @@
+{
+  "prompt": "Given two non-negative integers num1 and num2 represented as strings, return the product of num1 and num2, also represented as a string.\n\nExample 1:\n\n\nInput: num1 = \"2\", num2 = \"3\"\nOutput: \"6\"\n\nExample 2:\n\n\nInput: num1 = \"123\", num2 = \"456\"\nOutput: \"56088\"\n\n\nNote:\n\n\n       The length of both num1 and num2 is < 110.\n       Both num1 and num2 contain\u00a0only digits 0-9.\n       Both num1 and num2\u00a0do not contain any leading zero, except the number 0 itself.\n       You must not use any built-in BigInteger library or convert the inputs to integer directly.",
+  "secretary_judge": "gpt-4",
+  "learning_size": 2,
+  "all_candidates": [
+    "gpt-4",
+    "gemini-2.5-flash",
+    "command-a-03-2025",
+    "claude-3-5-sonnet-20241022",
+    "mistral-large-latest",
+    "deepseek-chat"
+  ]
+}

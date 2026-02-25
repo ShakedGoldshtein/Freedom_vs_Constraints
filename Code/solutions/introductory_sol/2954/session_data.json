@@ -1,0 +1,13 @@
+{
+  "prompt": "# A History Lesson\n\nThe Pony Express was a mail service operating in the US in 1859-60.\n\n\n\n\nIt reduced the time for messages to travel between the Atlantic and Pacific coasts to about 10 days, before it was made obsolete by the [transcontinental telegraph](https://en.wikipedia.org/wiki/First_transcontinental_telegraph).\n\n# How it worked\n\nThere were a number of *stations*, where:\n\n* The rider switched to a fresh horse and carried on, or\n* The mail bag was handed over to the next rider\n\n\n# Kata Task\n\n`stations` is a list/array of distances (miles) from one station to the next along the Pony Express route.\n\nImplement the `riders` method/function, to return how many riders are necessary to get the mail from one end to the other.\n\n**NOTE:** Each rider travels as far as he can, but never more than 100 miles.\n\n---\n*Good Luck.\nDM.*\n\n---\n\nSee also\n\n* The Pony Express\n* The Pony Express (missing rider)",
+  "secretary_judge": "mistral-large-latest",
+  "learning_size": 2,
+  "all_candidates": [
+    "mistral-large-latest",
+    "command-a-03-2025",
+    "gpt-4",
+    "gemini-2.5-flash",
+    "deepseek-chat",
+    "claude-3-5-sonnet-20241022"
+  ]
+}

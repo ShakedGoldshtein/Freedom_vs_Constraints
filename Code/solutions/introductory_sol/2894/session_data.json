@@ -1,0 +1,13 @@
+{
+  "prompt": "# Triple Trouble\n\nCreate a function that will return a string that combines all of the letters of the three inputed strings in groups.  Taking the first letter of all of the inputs and grouping them next to each other.  Do this for every letter, see example below!\n\n**E.g. Input: \"aa\", \"bb\" , \"cc\" => Output: \"abcabc\"** \n\n*Note: You can expect all of the inputs to be the same length.*",
+  "secretary_judge": "deepseek-chat",
+  "learning_size": 2,
+  "all_candidates": [
+    "deepseek-chat",
+    "gemini-2.5-flash",
+    "gpt-4",
+    "claude-3-5-sonnet-20241022",
+    "command-a-03-2025",
+    "mistral-large-latest"
+  ]
+}

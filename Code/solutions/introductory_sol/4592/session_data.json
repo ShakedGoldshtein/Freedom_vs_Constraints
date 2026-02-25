@@ -1,0 +1,13 @@
+{
+  "prompt": "Regular Tic-Tac-Toe is boring.\n\nThat's why in this Kata you will be playing  Tic-Tac-Toe in **3D** using a 4 x 4 x 4 matrix!\n\n\n\n# Kata Task\n\nPlay the game. Work out who wins.\n\nReturn a string\n\n* `O wins after  moves`\n* `X wins after  moves`\n* `No winner`\n\n# Rules\n\n* Player `O` always goes first\n* Input `moves` is list/array/tuple of `[x,y,z]` (zero based)\n* Each player takes a turn until you find a winner, or there are no moves left\n* Four of the same symbols in a row wins\n* There may be more moves provided than are necessary to finish the game - that is for you to figure out\n\n\n\nGood Luck!\nDM",
+  "secretary_judge": "gemini-2.5-flash",
+  "learning_size": 2,
+  "all_candidates": [
+    "gemini-2.5-flash",
+    "deepseek-chat",
+    "mistral-large-latest",
+    "gpt-4",
+    "claude-3-5-sonnet-20241022",
+    "command-a-03-2025"
+  ]
+}

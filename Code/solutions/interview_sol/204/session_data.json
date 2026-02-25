@@ -1,0 +1,13 @@
+{
+  "prompt": "Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.\n\n(i.e., [0,1,2,4,5,6,7] might become [4,5,6,7,0,1,2]).\n\nYou are given a target value to search. If found in the array return its index, otherwise return -1.\n\nYou may assume no duplicate exists in the array.\n\nYour algorithm's runtime complexity must be in the order of\u00a0O(log\u00a0n).\n\nExample 1:\n\n\nInput: nums = [4,5,6,7,0,1,2], target = 0\nOutput: 4\n\n\nExample 2:\n\n\nInput: nums = [4,5,6,7,0,1,2], target = 3\nOutput: -1",
+  "secretary_judge": "gpt-4",
+  "learning_size": 2,
+  "all_candidates": [
+    "gpt-4",
+    "mistral-large-latest",
+    "claude-3-5-sonnet-20241022",
+    "command-a-03-2025",
+    "deepseek-chat",
+    "gemini-2.5-flash"
+  ]
+}

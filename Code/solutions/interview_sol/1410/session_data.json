@@ -1,0 +1,13 @@
+{
+  "prompt": "Alice's school is planning to take some students from her class on a field trip. Alice is really excited about it. There are a total of S students in her class. But due to budget constraints, the school is planning to take only N students for the trip. These students will be picked randomly. And each student has equal chance of being picked.\nAlice's friend circle has M students including her. Though she is excited about the field trip, she will enjoy it only if there are atleast K of her friends with her on the trip. She is wondering what are the chances of that happening. She needs your help. Tell her the probability that she will enjoy given that she goes on the trip.\n\n-----Input:-----\nFirst line of input contains a single integer T, the number of test cases.\n\nEach test starts with a single line having 4 space separated integers, S, N, M and K.\n\n-----Output:-----\nFor each test case, output a line containing the required probability. The answer will be accepted if the relative error is not more than 10-6.\n\n-----Constraints:-----\n1 \u2264 T \u2264 100\n1 \u2264 S \u2264 1000\n1 \u2264 N \u2264 S\n1 \u2264 M \u2264 S\n0 \u2264 K < M\n\n-----Example:-----Input:\n3\n10 10 5 3\n10 4 6 4\n3 2 2 1\n\nOutput:\n1.000000\n0.000000\n0.500000\n\n-----Explanation:-----Case #1:\nEvery student will be taken to the trip. So all her 4 friends will accompany her to the trip no matter what. \nCase #2:\nAlice wants 4 out of her 5 friends to come along with her which isn't possible because the school is willing to pick only 4 students for the trip.",
+  "secretary_judge": "command-a-03-2025",
+  "learning_size": 2,
+  "all_candidates": [
+    "command-a-03-2025",
+    "claude-3-5-sonnet-20241022",
+    "gpt-4",
+    "mistral-large-latest",
+    "deepseek-chat",
+    "gemini-2.5-flash"
+  ]
+}

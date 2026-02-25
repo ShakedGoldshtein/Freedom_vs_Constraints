@@ -1,0 +1,1 @@
+Error generating response: Error code: 429 - {'error': {'message': 'Rate limit reached for gpt-4 in organization org-cURjN9BofVgyhQDl3LydB670 on tokens per min (TPM): Limit 10000, Used 10000, Requested 233. Please try again in 1.398s. Visit https://platform.openai.com/account/rate-limits to learn more.', 'type': 'tokens', 'param': None, 'code': 'rate_limit_exceeded'}}

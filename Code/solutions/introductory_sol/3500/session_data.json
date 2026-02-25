@@ -1,0 +1,13 @@
+{
+  "prompt": "Write function RemoveExclamationMarks which removes all exclamation marks from a given string.",
+  "secretary_judge": "gpt-4",
+  "learning_size": 2,
+  "all_candidates": [
+    "gpt-4",
+    "gemini-2.5-flash",
+    "mistral-large-latest",
+    "deepseek-chat",
+    "command-a-03-2025",
+    "claude-3-5-sonnet-20241022"
+  ]
+}

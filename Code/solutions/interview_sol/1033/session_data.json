@@ -1,0 +1,13 @@
+{
+  "prompt": "Given the values at the leaf nodes of a complete binary tree. The total number of nodes in the binary tree, is also given. Sum of the values at both the children of a node is equal to the value of the node itself. You can add any value or subtract any value from a node. Print the minimum change(difference made) in the sum of values of all the nodes in the tree, such that all the leaf nodes have the same value.\n\nNote: If a value transfers from one node to another, then that is not a change, but if an extra is needed to be added or subtracted to the entire total value of the nodes, then that is a change.\n\nInput Description:\n\nInput will contain an integer N, the number of nodes in the tree on a newline, followed by N space separated integers representing the values at the leaf nodes of the tree.\n\nOutput Description:\n\nPrint the required value on a newline.\n\nConstraints:\n\n1<=N<=20000\n1<=Value at each node in the leaves<=1000\n\nExample 1:\nInput:\n\n1\n\n50\nOutput:\n\n0\n\nExplanation: Since there is only one node, it is a leaf node itself and no change needs to be made.\n\nExample 2:\nInput:\n\n3\n\n200 800\nOutput:\n\n0 \n\nExplanation: There are two leaf nodes, and they can be made to 500 500, since no change in the total was made so difference made is 0. \n\nExample 3:\nInput:\n\n30\n\n29 33 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17\nOutput:\n\n6\n\nOutput: A total change of 6 needs to be changed to the entire value of the nodes, to get the leaf nodes equal.",
+  "secretary_judge": "mistral-large-latest",
+  "learning_size": 2,
+  "all_candidates": [
+    "mistral-large-latest",
+    "deepseek-chat",
+    "claude-3-5-sonnet-20241022",
+    "gpt-4",
+    "gemini-2.5-flash",
+    "command-a-03-2025"
+  ]
+}

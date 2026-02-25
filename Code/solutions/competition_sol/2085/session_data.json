@@ -1,0 +1,13 @@
+{
+  "prompt": "You are given n strings s_1, s_2, ..., s_{n} consisting of characters 0 and 1. m operations are performed, on each of them you concatenate two existing strings into a new one. On the i-th operation the concatenation s_{a}_{i}s_{b}_{i} is saved into a new string s_{n} + i (the operations are numbered starting from 1). After each operation you need to find the maximum positive integer k such that all possible strings consisting of 0 and 1 of length k (there are 2^{k} such strings) are substrings of the new string. If there is no such k, print 0.\n\n\n-----Input-----\n\nThe first line contains single integer n (1 \u2264 n \u2264 100)\u00a0\u2014 the number of strings. The next n lines contain strings s_1, s_2, ..., s_{n} (1 \u2264 |s_{i}| \u2264 100), one per line. The total length of strings is not greater than 100.\n\nThe next line contains single integer m (1 \u2264 m \u2264 100)\u00a0\u2014 the number of operations. m lines follow, each of them contains two integers a_{i} abd b_{i} (1 \u2264 a_{i}, b_{i} \u2264 n + i - 1)\u00a0\u2014 the number of strings that are concatenated to form s_{n} + i.\n\n\n-----Output-----\n\nPrint m lines, each should contain one integer\u00a0\u2014 the answer to the question after the corresponding operation.\n\n\n-----Example-----\nInput\n5\n01\n10\n101\n11111\n0\n3\n1 2\n6 5\n4 4\n\nOutput\n1\n2\n0\n\n\n\n-----Note-----\n\nOn the first operation, a new string \"0110\" is created. For k = 1 the two possible binary strings of length k are \"0\" and \"1\", they are substrings of the new string. For k = 2 and greater there exist strings of length k that do not appear in this string (for k = 2 such string is \"00\"). So the answer is 1.\n\nOn the second operation the string \"01100\" is created. Now all strings of length k = 2 are present.\n\nOn the third operation the string \"1111111111\" is created. There is no zero, so the answer is 0.",
+  "secretary_judge": "gemini-2.5-flash",
+  "learning_size": 2,
+  "all_candidates": [
+    "gemini-2.5-flash",
+    "mistral-large-latest",
+    "claude-3-5-sonnet-20241022",
+    "command-a-03-2025",
+    "deepseek-chat",
+    "gpt-4"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "prompt": "You get an array of numbers, return the sum of all of the positives ones.\n\nExample `[1,-4,7,12]` => `1 + 7 + 12 = 20`\n\nNote: if there is nothing to sum, the sum is default to `0`.",
+  "secretary_judge": "gemini-2.5-flash",
+  "learning_size": 2,
+  "all_candidates": [
+    "gemini-2.5-flash",
+    "mistral-large-latest",
+    "deepseek-chat",
+    "claude-3-5-sonnet-20241022",
+    "command-a-03-2025",
+    "gpt-4"
+  ]
+}
